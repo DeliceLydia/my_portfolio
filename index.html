@@ -1,115 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width" , initial-scale=1.0>
-            <meta http-equiv="X-UA-Compatible" content="ie=edge">
-            <title>My Portfolio</title>
-            <link rel="stylesheet" href="./index.css">
-            <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        <nav id="navbar" class="nav">
-            <ul class="nav-list">
-                <li>
-                    <a href="#welcome-section">About</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#Contact">Contact</a>
-                </li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://kit.fontawesome.com/5b1eeceadd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#about-me">About</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <section id="welcome-section" class="welcome-section background">
+      <h1>Hello, I am Lydia</h1>
+      <h2>I Am A Software Developer</h2>
+      <p>I can help you build a product, feature or website. please Look through some of my work and experience! If you like what you see and have a project you need coded, 
+        don’t hesitate to reach out! .</p>
+    </section>
+    <section id="projects" class="project-section">
+      <h2 class="project-section-header">These are some of my projects</h2>
+      <div class="projects-grid">
+        <div class="project project-tile background">
+          <img
+            class="project-image"
+            src="./assets/nws.png"
+            alt="project"
+          />
+          <p class="project-title">
+            <a href="https://github.com/Yors-git/Newsweek-Clone">News Week Clone</a><br>
+            <a href="http://torresbribiesca.tech/Newsweek-Clone/">Live demo </a>
+          </p>
+        </div>
+        <div class="project project-tile background">
+          <img
+            class="project-image"
+            src="./assets/shot.png"
+            alt="project"
+          />
+          <p class="project-title">
+            <a href="https://github.com/DeliceLydia/Capstone-Project">Concert Promotion</a></br>
+            <a href="https://delicelydia.github.io/Capstone-Project/">Live Demo</a>
+          </p>
+        </div>
+        <div class="project project-tile background">
+          <img
+            class="project-image"
+            src="./assets/scshot.png"
+            alt="project"
+          />
+          <p class="project-title">
+            <a href="https://github.com/DeliceLydia/Capstone-Telegram-Bot">Telegram Bot</a></p>
+          </p>
+        </div>
+        <div class="project project-tile background">
+          <img
+            class="project-image"
+            src="./assets/stay.png"
+            alt="project"
+          />
+          <p class="project-title">
+            <a href="https://github.com/DeliceLydia/ror-social-scaffold">Social Media Project</a></br>
+            <a href="https://stay-in-touch-project.herokuapp.com/users/sign_in">Live demo</a>
+          </p>
+        </div>
+        <div class="project project-tile background">
+          <img
+            class="project-image"
+            src="./assets/tic-tac-toe-image.png"
+            alt="project"
+          />
+          <p class="project-title">
+           <a href="https://github.com/DeliceLydia/Tic-Tac-Toe-Game">Tic Tac Toe Game</a><br>
+           <a href="https://repl.it/@yocoono/Tic-Tac-Toe-Game#main.rb">Live Demo</a>
+          </p>
+        </div>
+        <div class="project project-tile background">
+          <img
+            class="project-image"
+            src="./assets/profile.png"
+            alt="project"
+          />
+          <p class="project-title">
+            <a href="https://github.com/DeliceLydia/group_hours_app">Grouping Hours App</a></br>
+            <a href="https://group-hours.herokuapp.com/">Live Demo</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="about-me" class="about background">
+      <h2 class="align color">About me</h2>
+      <p class="align">Hello I am a software developer! I can help you build a product , 
+        feature or website Look through some of my work and experience! 
+        If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+        <button><a href="https://docs.google.com/document/d/1cSji8C9yb4ZlkN9TxLvz3Qj0hxoZNqqM31sMLN4OQ0I/edit?usp=sharing">Get My Resume</a></button>
+    </section>
+    <section id="skills" class="skills-section background">
+          <ul>
+            <h3 class="title">Languages</h3>
+            <li>Css</li>
+            <li>Ruby</li>
+            <li>Html</li>
+            <li>Javascript</li>
+          </ul>
+        
+          <ul>
+            <h3 class="title">Frameworks</h3>
+            <li>Express</li>
+            <li>Bootstrap</li>
+            <li>Ruby On Rails</li>
+          </ul>
 
-            </ul>
-         
-        </nav>
-        <section id="welcome-section" class="welcome-section">
-           <h1>Hey I am Lydia</h1>
-            <p>A web developer</p>
-
-        </section>
-          <section id="projects" class="project-section">
-           <h2 class="project-section-header">These are some of my projects</h2> 
-           <div class="projects-grid">
-                <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project project-tile">
-                    <img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" alt="project">
-                    <p class="project-title">
-                    <span class="code"></span>
-                    Tribute Page
-                    <span class="code"></span>
-                    </p>
-                    </a>
-                    <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" class="project project-tile">
-                        <img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/random-quote-machine.png" alt="project">
-                        <p class="project-title">
-                        <span class="code"></span>
-                        Random Quote Machine
-                        <span class="code"></span>
-                        </p>
-                        </a>
-                        <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank" class="project project-tile">
-                            <img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/calc.png" alt="project">
-                            <p class="project-title">
-                            <span class="code"></span>
-                            JavaScript Calculator
-                            <span class="code"></span>
-                            </p>
-                            </a>
-                            <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank" class="project project-tile">
-                                <img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/map.jpg" alt="project">
-                                <p class="project-title">
-                                <span class="code"></span>
-                                Map Data Across the Globe
-                                <span class="code"></span>
-                                </p>
-                                </a>
-                                <a href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank" class="project project-tile">
-                                    <img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/wiki.png" alt="project">
-                                    <p class="project-title">
-                                    <span class="code"></span>
-                                    Wikipedia Viewer
-                                    <span class="code"></span>
-                                    </p>
-                                    </a>
-                                    <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank" class="project project-tile">
-                                        <img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tic-tac-toe.png" alt="project">
-                                        <p class="project-title">
-                                        <span class="code"></span>
-                                        Tic Tac Toe Game
-                                        <span class="code"></span>
-                                        </p>
-                                        </a>
-                                        <a href="https://codepen.io/FreeCodeCamp/" class="btn btn-show-all" target="_blank">Show all<i class="fas fa-chevron-right"></i></a>
-           </div>
-
-        </section>  
-        <section id="contact" class="contact-section">
-            <div class="contact-section-header">
-                <h2>Let's work together...</h2>
-                <p>How do you take your coffee?</p>
-
-            <div class="contact-links">
-                    <a href="https://facebook.com/freecodecamp" target="_blank" class="btn contact-details"><i class="fab fa-facebook-square"></i> Facebook</a>        
-            </div>
-            <a id="profile-link" href="https://github.com/freecodecamp" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
-            <a href="https://twitter.com/freecodecamp" target="_blank" class="btn contact-details"><i class="fab fa-twitter"></i> Twitter</a>
-            <a href="mailto:example@example.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a>
-            <a href="tel:555-555-5555" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Call me</a>
-            </div>
-
-        </section> 
-        <footer>
-            <p>
-                    **This is just a fake portfolio. All the projects and contact details given
-                    are not real.
-                    </p>
-                    <p>
-
-© Created for
-<a href="https://www.freecodecamp.com/" target="_blank">freeCodeCamp <i class="fab fa-free-code-camp"></i></a>
-                    </p>
-        </footer>
-    </body>
-
+          <ul>
+            <h3 class="title">Tools</h3>
+            <li>Rspec</li>
+            <li>Heroku</li>
+            <li>Capybara</li>
+            <li>Git/Github</li>
+            <li>PostgreSQL</li>
+         </ul>
+      </div>
+    </section>
+    <section id="contact" class="contact-section background">
+      <div class="contact-section-header">
+        <h2>Let's work together...</h2>
+        <span>Delydia84@gmail.com</span>
+        <div class="contact-links">
+          <a
+            href="https://web.facebook.com/delice.lydie"
+            target="_blank"
+            class="btn contact-details"
+            ><i class="fab fa-facebook"></i> Facebook</a
+          >
+          <a
+          href="https://www.linkedin.com/in/delice-lydia/"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-linkedin"></i> Linkedin</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/DeliceLydia"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a
+          href="https://twitter.com/IngabireLydia3"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-twitter"></i> Twitter</a
+        >
+       </div>
+      </div>
+    </section>
+    <footer>
+      <p>
+        Designed By <span class="color">Delice Lydia</span> &copy 2021</a>
+      </p>
+    </footer>
+  </body>
 </html>
